@@ -1,4 +1,4 @@
-def get_words_array (sentence):  #параметр функции с которым она работает
+def get_words_array (sentence):  
     words = sentence.split()
     print (f"Кількість символів у реченні-{len(sentence)}")
     print (f"Кількість слів в реченні-{len(words)}")
